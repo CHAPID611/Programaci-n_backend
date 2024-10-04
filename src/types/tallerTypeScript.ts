@@ -48,7 +48,7 @@ const arrayProducts: any[] =[
     priceDiscount : 700
 },
 {
-    id:1,
+    id:2,
     name: 'atun',
     price: 2500,
     priceDiscount : 1500
@@ -124,7 +124,7 @@ console.log(joinNamesStudents, 'joinNamesStudents " "');
 const filterPrice = arrayProducts.filter((array) =>array.price > 900);
 console.log(filterPrice, 'filterPrice > 900');
 //for
-let arrayP : any[] = [];
+const arrayP : any[] = [];
 for(let i=0;i<arrayProducts.length;i++){
     if(arrayProducts[i].price >900){
         arrayP.push(arrayProducts[i])
